@@ -3,6 +3,7 @@ package Revision;
 public class GCD {
     public static void main(String[] args) {
         System.out.println(GCD(90,45));
+        System.out.println(gcd(90,45));
     }
     public static int GCD(int a,int b)
     {
@@ -15,5 +16,11 @@ public class GCD {
         if(a>b)
             return GCD(a-b,b);
         return GCD(a,b-a);
+    }
+    public static int gcd(int a,int b)
+    {
+        if(b==0)
+            return a;
+        return gcd(b,a%b);
     }
 }
