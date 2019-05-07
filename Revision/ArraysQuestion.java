@@ -4,7 +4,8 @@ public class ArraysQuestion {
     public static void main(String[] args) {
         int arr[] = {1, 3, 5, 7, 9, 3, 5, 11, 2, 3, 54, 76, 3, 2, 1};
 //        bubblesort(arr);
-        QuickSort(arr);
+//        QuickSort(arr);
+        reverse(arr);
         System.out.println(binarySearch(arr, 9));
         for (int var : arr)
             System.out.print(var + " ");
@@ -41,6 +42,19 @@ public class ArraysQuestion {
                     arr[j+1]=temp;
                 }
             }
+        }
+    }
+    public static void reverse(int arr[])
+    {
+        int i=0;
+        int j=arr.length-1;
+        while (i<=j)
+        {
+            int temp= arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+            i++;
+            j--;
         }
     }
 }
