@@ -23,4 +23,10 @@ public class GCD {
             return a;
         return gcd(b,a%b);
     }
+    public static int gcd2(int a,int b)
+    {
+        if(a==0)
+            return b;
+        return gcd2(b%a,a);
+    }
 }
