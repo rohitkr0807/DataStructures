@@ -2,7 +2,7 @@ package Revision;
 
 public class StringDemos {
     public static void main(String[] args) {
-        String str1="hl";
+        String str1="hello";
         String str2="Gaya";
         System.out.println(str1+" "+str2);
         System.out.println(str1.concat(str2));
