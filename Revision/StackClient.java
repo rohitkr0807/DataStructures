@@ -5,7 +5,7 @@ public class StackClient {
         Stack s= new Stack();
         s.push(45);
         System.out.println(s.pop());
-        System.out.println(s.pop());
+//        System.out.println(s.pop());
 
     }
 }
