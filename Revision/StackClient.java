@@ -6,6 +6,5 @@ public class StackClient {
         s.push(45);
         System.out.println(s.pop());
 //        System.out.println(s.pop());
-
     }
 }
