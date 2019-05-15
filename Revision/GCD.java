@@ -2,6 +2,8 @@ package Revision;
 
 public class GCD {
     public static void main(String[] args) {
+        int a=0;
+        System.out.println(a);
         System.out.println(GCD(90,45));
         System.out.println(gcd(90,45));
     }
